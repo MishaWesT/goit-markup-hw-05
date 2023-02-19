@@ -120,7 +120,7 @@ img {
         color:var(--button-color);
         background-color: var(--button-background);
         cursor: pointer;
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-order-service:hover,
@@ -185,7 +185,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav:hover,
@@ -202,7 +202,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--contact-list-color);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
@@ -245,7 +245,7 @@ img {
         border: 1px solid var(--costumers-border);
         border-radius: 4px;
         color: var(--costumers-border);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:is(:hover, :focus) {
@@ -277,7 +277,7 @@ img {
         height: 100%;
         border-radius: 50%;
         background-color: var(--button-background);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover, .social-link:focus {
@@ -329,7 +329,7 @@ img {
         height: 100%;
         border-radius: 50%;
         background-color:rgba(255, 255, 255, 0.1);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .last-social-link:hover,
