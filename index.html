@@ -36,7 +36,7 @@
         <section class="service-list">
             <div class="conteiner">
                 <h1 class="service-title">Effective Solutions for Your Business</h1>
-                <button class="btn-order-service" type="button">Order Service</button>
+                <button class="btn-order-service" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="best">
@@ -336,5 +336,15 @@
                 </div>
             </div>
         </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window-one">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="icon-close-button" width="8" height="8">
+            <use href="./images/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
