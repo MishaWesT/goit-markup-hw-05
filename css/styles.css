@@ -191,9 +191,20 @@ img {
 }
 
 .menu-nav:hover,
-.menu-nav:focus {
+.menu-nav:focus,
+.menu-link.current {
         color: var(--accent-color);
 }
+
+.menu-nav.current::after{
+        content: "";
+        display: block;
+        background-color: var(--active-address-color);
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+ }
+
 
 .contact-link{
         display: block;
@@ -336,7 +347,7 @@ img {
 
 .last-social-link:hover,
 .last-social-link:focus {
-  background-color: #31D0AA;
+        background-color: #31D0AA;
 }
 
 .service-list{
