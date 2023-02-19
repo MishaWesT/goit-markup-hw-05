@@ -197,22 +197,22 @@ img {
 }
 
 .menu .link.current {
-  color: var(--accent-color);
-  position: relative;
+        color: var(--accent-color);
+        position: relative;
 }
 
 .menu .link.current::after {
-  content: "";
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--active-address-color);
-  border-radius: 2px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+        content: "";
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 4px;
+        background-color: var(--active-address-color);
+        border-radius: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
 }
 
 .contact-link{
@@ -513,8 +513,9 @@ img {
         background: var(--btn-bg-portfolio-color);
         border-radius: 4px;
         cursor: pointer;
-        transition: box-shadow var(--time-transition);
-        
+        transition: box-shadow var(--time-transition),
+        background-color var(--time-transition),
+        color var(--time-transition); 
 }
 
 .portfolio-btn:hover,
